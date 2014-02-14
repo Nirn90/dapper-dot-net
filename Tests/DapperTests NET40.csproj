@@ -40,21 +40,6 @@
     <Reference Include="BLToolkit.4">
       <HintPath>bltoolkit\BLToolkit.4.dll</HintPath>
     </Reference>
-    <Reference Include="FSharp.PowerPack, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a19089b1c74d0809, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\FSPowerPack.Community.2.0.0.0\Lib\Net40\FSharp.PowerPack.dll</HintPath>
-    </Reference>
-    <Reference Include="FSharp.PowerPack.Linq, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a19089b1c74d0809, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\FSPowerPack.Community.2.0.0.0\Lib\Net40\FSharp.PowerPack.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="FSharp.PowerPack.Metadata, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a19089b1c74d0809, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\FSPowerPack.Community.2.0.0.0\Lib\Net40\FSharp.PowerPack.Metadata.dll</HintPath>
-    </Reference>
-    <Reference Include="FSharp.PowerPack.Parallel.Seq, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a19089b1c74d0809, processorArchitecture=MSIL">
-      <HintPath>..\packages\FSPowerPack.Community.2.0.0.0\Lib\Net40\FSharp.PowerPack.Parallel.Seq.dll</HintPath>
-    </Reference>
     <Reference Include="Iesi.Collections">
       <HintPath>NHibernate\Iesi.Collections.dll</HintPath>
     </Reference>
@@ -73,26 +58,6 @@
     <Reference Include="Npgsql">
       <HintPath>..\packages\Npgsql.2.0.11\lib\Net40\Npgsql.dll</HintPath>
     </Reference>
-    <Reference Include="ServiceStack.Common, Version=1.0.4110.36238, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>OrmLite\ServiceStack.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack.Interfaces, Version=1.0.4110.36238, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>OrmLite\ServiceStack.Interfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack.OrmLite, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>OrmLite\ServiceStack.OrmLite.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack.OrmLite.SqlServer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>OrmLite\ServiceStack.OrmLite.SqlServer.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack.Text, Version=2.0.8.8681, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>OrmLite\ServiceStack.Text.dll</HintPath>
-    </Reference>
     <Reference Include="Simple.Data">
       <HintPath>Simple.Data\Simple.Data.dll</HintPath>
     </Reference>
@@ -102,30 +67,13 @@
     <Reference Include="Simple.Data.SqlServer">
       <HintPath>Simple.Data\Simple.Data.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="Soma.Core, Version=0.8.0.0, Culture=neutral, PublicKeyToken=bc5ae85929f8312a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Soma\Soma.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Soma.Core.IT.MsSql, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Soma\Soma.Core.IT.MsSql.dll</HintPath>
-    </Reference>
-    <Reference Include="Soma.Core.IT.MsSqlCe, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Soma\Soma.Core.IT.MsSqlCe.dll</HintPath>
-    </Reference>
     <Reference Include="SubSonic.Core">
       <HintPath>SubSonic\SubSonic.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Data.Linq" />
-    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\SqlServerCompact.4.0.8482.1\lib\System.Data.SqlServerCe.dll</HintPath>
-    </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
@@ -133,6 +81,46 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="FSharp.PowerPack, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a19089b1c74d0809">
+      <HintPath>..\packages\FSPowerPack.Community.2.0.0.0\Lib\Net40\FSharp.PowerPack.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.PowerPack.Linq, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a19089b1c74d0809">
+      <HintPath>..\packages\FSPowerPack.Community.2.0.0.0\Lib\Net40\FSharp.PowerPack.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.PowerPack.Metadata, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a19089b1c74d0809">
+      <HintPath>..\packages\FSPowerPack.Community.2.0.0.0\Lib\Net40\FSharp.PowerPack.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.PowerPack.Parallel.Seq, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a19089b1c74d0809">
+      <HintPath>..\packages\FSPowerPack.Community.2.0.0.0\Lib\Net40\FSharp.PowerPack.Parallel.Seq.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>OrmLite\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>OrmLite\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite">
+      <HintPath>OrmLite\ServiceStack.OrmLite.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite.SqlServer">
+      <HintPath>OrmLite\ServiceStack.OrmLite.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>OrmLite\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="Soma.Core">
+      <HintPath>Soma\Soma.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Soma.Core.IT.MsSql">
+      <HintPath>Soma\Soma.Core.IT.MsSql.dll</HintPath>
+    </Reference>
+    <Reference Include="Soma.Core.IT.MsSqlCe">
+      <HintPath>Soma\Soma.Core.IT.MsSqlCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data.SqlServerCe">
+      <HintPath>..\packages\SqlServerCompact.4.0.8482.1\lib\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assert.cs" />
@@ -242,7 +230,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dapper NET45\Dapper NET45.csproj">
-      <Project>{0fff5bc7-0a4b-4d87-835e-4fad70937507}</Project>
+      <Project>{0FFF5BC7-0A4B-4D87-835E-4FAD70937507}</Project>
       <Name>Dapper NET45</Name>
     </ProjectReference>
     <ProjectReference Include="..\Dapper.Contrib\Dapper.Contrib.csproj">
