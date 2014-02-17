@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -30,10 +30,27 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyClass.cs" />
+    <Compile Include="..\Dapper NET40\SqlMapper.cs">
+      <Link>SqlMapper.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Database.cs" />
+    <Compile Include="DbTypeMap.cs" />
+    <Compile Include="DbMemberMap.cs" />
+    <Compile Include="SqlMapperExt.cs" />
+    <Compile Include="Attributes.cs" />
+    <Compile Include="DbInformationSchema.cs" />
+    <Compile Include="MultiReader.cs" />
+    <Compile Include="SqlSet.cs" />
+    <Compile Include="DapperReader.cs" />
+    <Compile Include="SqlQuery.cs" />
+    <Compile Include="ReflectionHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
